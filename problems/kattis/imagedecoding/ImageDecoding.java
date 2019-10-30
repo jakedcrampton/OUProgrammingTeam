@@ -32,7 +32,6 @@ public class ImageDecoding {
 						dot=!dot;
 					}
 					if(lastLine > -1 && lineLength != lastLine) {
-						//System.out.println("\nFuck");
 						error = true;
 					}
 					lastLine=lineLength;
